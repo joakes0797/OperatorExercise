@@ -35,7 +35,26 @@ namespace OperatorExercise
             int remainder=a % b;
             Console.WriteLine(remainder);
 
-            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");           
+            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+
+
+
+
+            //------------------------------------------------------------------------------Exercise 2
+            // Create a method that will Calculate the area of a circle based on its radius. Name the method AreaOfCircle.
+            // use this formula Math.PI * Math.Pow(r, 2) and return the area of type double
+            // the method will also accept r as a parameter
+            // Allow a user to input a value for r in the console using the following code:
+            //            var radius = double.Parse(Console.ReadLine());
+
+
+            Console.WriteLine("What is the radius of your circle?");
+            var radius = double.Parse(Console.ReadLine());
+            Console.WriteLine($"The area of a circle with a radius of {radius} is {AreaofCircle(radius)}");
+        }
+        public static double AreaofCircle(double radius)
+        {
+            return (Math.PI * Math.Pow(radius, 2));
         }
     }
 }
