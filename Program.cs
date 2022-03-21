@@ -19,23 +19,23 @@ namespace OperatorExercise
             int x = 9;
             int y = 8;
             int addition = x + y;
-            Console.WriteLine(addition);
+            Console.WriteLine($"{x} plus {y} is {addition}");
 
             int subtraction = x - y;
-            Console.WriteLine(subtraction);
+            Console.WriteLine($"{x} minus {y} is {subtraction}");
 
-            int multiplication = x* y;
-            Console.WriteLine(multiplication);
+            int multiplication = x * y;
+            Console.WriteLine($"{x} times {y} is {multiplication}");
             
             int a = 17;
             int b = 4;
             int quotient = a / b;
-            Console.WriteLine(quotient);
+            //Console.WriteLine($"{a} divided by {b} is {quotient}");
 
-            int remainder=a % b;
-            Console.WriteLine(remainder);
+            int remainder = a % b;
+            //Console.WriteLine(remainder);
 
-            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+            Console.WriteLine($"{a} / {b} is {quotient} with a remainder of {remainder}");
 
 
 
