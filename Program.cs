@@ -14,7 +14,7 @@ namespace OperatorExercise
             //Write out the results using Console.WriteLine or Console.Write to write out the results in
             //the following form: if a = 17 and b = 4, print the following:
             //            The result should say: 17 / 4 is 4 remainder 1
-            //----------------------------Exercise 1
+            //------------------------------------------------------------------------------Exercise 1
 
             int x = 9;
             int y = 8;
@@ -35,13 +35,7 @@ namespace OperatorExercise
             int remainder=a % b;
             Console.WriteLine(remainder);
 
-            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
-
-
-
-
-
-
+            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");           
         }
     }
 }
